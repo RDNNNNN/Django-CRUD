@@ -1,0 +1,10 @@
+{% extends "layouts/base.jinja" %}
+{% block content %}
+<h1>Products</h1>
+{% for product in products %}
+<h3><a href="{%url 'views:show' product.id%}">Title:{{product.title}}</a></h3>
+<p>Price:{{product.price}}</p>
+<p>Desc:{{product.desc}}</p>
+{% endfor %}
+<a href="{% url 'views:new'%}">New</a>
+{% endblock content %}

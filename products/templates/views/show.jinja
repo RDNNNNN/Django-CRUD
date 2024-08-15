@@ -1,0 +1,8 @@
+{% extends "layouts/base.jinja" %}
+{% block content %}
+<h1>Title:{{product.title}}</h1>
+<p>Price:{{product.price}}</p>
+<p>Desc:{{product.desc}}</p>
+<a href="{% url 'views:edit' product.id %}">Edit</a>
+<a href="{% url 'views:delete' product.id %}">Delete</a>
+{% endblock content %}
