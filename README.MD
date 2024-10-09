@@ -1,4 +1,9 @@
-Execution Steps
+[流程影片](https://www.youtube.com/watch?v=lMLjO9EvA-A)
+
+---
+
+執行步驟
+
 --
 1. `poetry shell`
 2. `poetry install`
