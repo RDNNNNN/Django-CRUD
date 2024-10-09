@@ -2,9 +2,7 @@
 
 ---
 
-執行步驟
-
---
+## 執行步驟
 
 1. `poetry shell`
 2. `poetry install`
